@@ -1,0 +1,28 @@
+{
+    "window.zoomLevel": 1,
+    "files.autoGuessEncoding": true,
+
+    "editor.snippetSuggestions": "top",
+    "editor.minimap.enabled": true,
+    "editor.minimap.renderCharacters": false,
+    "editor.formatOnPaste": true,
+    "editor.formatOnType": true,
+    "editor.wordWrap": "on",
+   
+"vim.insertModeKeyBindings": [
+    {
+        "before": ["j","k"],
+        "after": ["<esc>"]
+    },
+    {
+        "before": [ "J", "K" ],
+        "after": ["<esc>"]
+    }],
+
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-c>": false,
+        "<C-v>": false,
+        "<C-f>": false
+    } 
+}
